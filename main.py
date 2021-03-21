@@ -16,7 +16,7 @@ import os, math, json, random, re, html_text, pytesseract, base64, time, smtplib
 ua_ig = 'Mozilla/5.0 (Linux; Android 9; SM-A102U Build/PPR1.180610.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/74.0.3729.136 Mobile Safari/537.36 Instagram 155.0.0.37.107 Android (28/9; 320dpi; 720x1468; samsung; SM-A102U; a10e; exynos7885; en_US; 239490550)'
 
 app = Flask(__name__)
-apiKey = 'O8mUD3YrHIy9KM1fMRjamw8eg'
+apiKey = 'hansdev'
 apiKey_ocr = '09731daace88957'
 app.config['MEDIA'] = 'tts'
 app.secret_key = b'BB,^z\x90\x88?\xcf\xbb'
